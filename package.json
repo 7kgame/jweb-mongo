@@ -1,0 +1,46 @@
+{
+  "name": "jweb-mongo",
+  "version": "0.0.1",
+  "description": "mongo dao implementation for jweb",
+  "main": "build/index.js",
+  "typings": "types/index.d.ts",
+  "files": [
+    "build/**/*.js",
+    "types/*.d.ts"
+  ],
+  "scripts": {
+    "tsc": "tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/7kgame/jweb-mongo.git"
+  },
+  "keywords": [
+    "mongo",
+    "nodejs",
+    "typescript",
+    "jweb"
+  ],
+  "author": "cyij2006@gmail.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/7kgame/jweb-mongo/issues"
+  },
+  "homepage": "https://github.com/7kgame/jweb-mongo#readme",
+  "dependencies": {
+    "mongodb": "^3.1.12"
+  },
+  "devDependencies": {
+    "@types/mongodb": "^3.1.19",
+    "@types/node": "^10.12.18",
+    "eslint": "^5.12.0",
+    "eslint-config-airbnb-base": "^13.1.0",
+    "eslint-plugin-import": "^2.14.0",
+    "eslint-plugin-promise": "^4.0.1",
+    "tsc": "^1.20150623.0",
+    "tslint": "^5.12.1",
+    "typescript": "^3.2.2",
+    "typescript-eslint-parser": "^21.0.2"
+  }
+}
