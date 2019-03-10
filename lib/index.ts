@@ -46,4 +46,14 @@ export default class MongoDao {
       await this.client.close();
     }
   }
+
+  public getCollection (dbName: string, colName: string) {
+    let db: Db, col: Collection;
+    if (this.client) {
+      db = this.client.db(dbName);
+      db && (col = db.collection(colName));
+    }
+    return {db, col};
+  }
+
 }

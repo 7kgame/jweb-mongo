@@ -52,5 +52,13 @@ class MongoDao {
             }
         });
     }
+    getCollection(dbName, colName) {
+        let db, col;
+        if (this.client) {
+            db = this.client.db(dbName);
+            db && (col = db.collection(colName));
+        }
+        return { db, col };
+    }
 }
 exports.default = MongoDao;
