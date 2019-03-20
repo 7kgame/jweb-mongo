@@ -1,6 +1,6 @@
 {
   "name": "jweb-mongo",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "description": "mongo dao implementation for jweb",
   "main": "build/index.js",
   "typings": "types/index.d.ts",
