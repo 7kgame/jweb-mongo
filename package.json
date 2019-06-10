@@ -9,6 +9,7 @@
     "types/*.d.ts"
   ],
   "scripts": {
+    "build": "tsc",
     "tsc": "tsc",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -29,10 +30,11 @@
   },
   "homepage": "https://github.com/7kgame/jweb-mongo#readme",
   "dependencies": {
-    "mongodb": "^3.1.12",
-    "@types/mongodb": "^3.1.19"
+    "jbean": "x.x.x",
+    "mongodb": "^3.1.12"
   },
   "devDependencies": {
+    "@types/mongodb": "^3.1.19",
     "@types/node": "^10.12.18",
     "tsc": "^1.20150623.0",
     "tslint": "^5.12.1",

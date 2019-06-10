@@ -57,3 +57,5 @@ export default class MongoDao {
   }
 
 }
+
+MongoDao['singleton'] = true

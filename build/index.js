@@ -62,3 +62,4 @@ class MongoDao {
     }
 }
 exports.default = MongoDao;
+MongoDao['singleton'] = true;
