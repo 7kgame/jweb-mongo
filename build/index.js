@@ -12,6 +12,7 @@ Object.defineProperty(exports, "__esModule", { value: true });
 const mongodb_1 = require("mongodb");
 const defaultOptions = {
     poolSize: require('os').cpus().length,
+    useUnifiedTopology: true,
     useNewUrlParser: true,
     autoReconnect: true,
     auth: null

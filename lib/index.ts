@@ -2,6 +2,7 @@ import { Collection, Db, MongoClient, MongoClientOptions } from 'mongodb'
 
 const defaultOptions = {
   poolSize: require('os').cpus().length,
+  useUnifiedTopology: true,
   useNewUrlParser: true,
   autoReconnect: true,
   auth: null
